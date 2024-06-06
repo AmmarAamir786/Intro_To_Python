@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "learn python with me"
+version = "0.1.0"
+description = ""
+authors = ["Ammar Aamir <ammaraamir609@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+uvicorn = "^0.29.0"
+ipykernel = "^6.29.4"
+matplotlib = "^3.8.4"
+mypy = "^1.10.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
