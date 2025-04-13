@@ -1,18 +1,11 @@
-[tool.poetry]
-name = "learn python with me"
+[project]
+name = "python"
 version = "0.1.0"
-description = ""
-authors = ["Ammar Aamir <ammaraamir609@gmail.com>"]
+description = "Add your description here"
 readme = "README.md"
-
-[tool.poetry.dependencies]
-python = "^3.12"
-uvicorn = "^0.29.0"
-ipykernel = "^6.29.4"
-matplotlib = "^3.8.4"
-mypy = "^1.10.0"
-
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+requires-python = ">=3.12"
+dependencies = [
+    "ipykernel>=6.29.5",
+    "matplotlib>=3.10.1",
+    "pandas>=2.2.3",
+]
